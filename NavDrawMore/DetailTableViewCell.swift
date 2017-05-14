@@ -22,6 +22,7 @@ class DetailTableViewCell: UITableViewCell {
         super.setSelected(selected, animated: animated)
 
         // Configure the view for the selected state
+        //later I will configure the view
     }
 
 }
