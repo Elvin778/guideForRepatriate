@@ -1,0 +1,23 @@
+PODS:
+  - DLRadioButton (1.4.9)
+  - GoogleMaps (2.2.0):
+    - GoogleMaps/Maps (= 2.2.0)
+  - GoogleMaps/Base (2.2.0)
+  - GoogleMaps/Maps (2.2.0):
+    - GoogleMaps/Base
+  - GooglePlaces (2.2.0):
+    - GoogleMaps/Base (= 2.2.0)
+
+DEPENDENCIES:
+  - DLRadioButton (~> 1.4)
+  - GoogleMaps
+  - GooglePlaces
+
+SPEC CHECKSUMS:
+  DLRadioButton: 7bb8a6e3768b572469ace553391ab4d2af6f9c19
+  GoogleMaps: 104c418d61ab8a05dff06ed0784c25ea9d37da45
+  GooglePlaces: bca867d5e9da15384c794b945e4226848bc6e9d9
+
+PODFILE CHECKSUM: e249bc2242c474eb755c56e0c755b2fd21ab1bde
+
+COCOAPODS: 1.2.1
