@@ -7,15 +7,42 @@
 //
 
 import UIKit
+import GoogleMaps
+import GooglePlaces
 
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
 
     var window: UIWindow?
-
+    var centerContainer: MMDrawerController?
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
+        GMSServices.provideAPIKey("AIzaSyALYJphQsh1Tkev6SRQvObDRLfEloxKCCc")
+        GMSPlacesClient.provideAPIKey("AIzaSyALYJphQsh1Tkev6SRQvObDRLfEloxKCCc")
         // Override point for customization after application launch.
+//        let rootController = self.window!.rootViewController
+        
+        let mainStoryBoard: UIStoryboard = UIStoryboard(name: "Main", bundle: nil)
+        
+        let centerViewController = mainStoryBoard.instantiateViewController(withIdentifier: "ViewController") as! ViewController
+        
+        let leftSideViewController = mainStoryBoard.instantiateViewController(withIdentifier: "LeftSideViewController") as! LeftSideViewController
+        
+        let rightSideViewController = mainStoryBoard.instantiateViewController(withIdentifier: "RightSideViewController") as! RightSideViewController
+        
+        let leftSideNav = UINavigationController(rootViewController: leftSideViewController)
+        let rightSideNav = UINavigationController(rootViewController: rightSideViewController)
+
+        let centerNav = UINavigationController(rootViewController: centerViewController)
+        
+        centerContainer = MMDrawerController(center: centerNav, leftDrawerViewController: leftSideNav, rightDrawerViewController: rightSideNav)
+        
+        centerContainer!.openDrawerGestureModeMask = MMOpenDrawerGestureMode.panningCenterView
+        centerContainer!.closeDrawerGestureModeMask = MMCloseDrawerGestureMode.panningCenterView
+        
+        window!.rootViewController = centerContainer
+        window?.makeKeyAndVisible()
+        
         return true
     }
 
@@ -28,7 +55,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         // Use this method to release shared resources, save user data, invalidate timers, and store enough application state information to restore your application to its current state in case it is terminated later.
         // If your application supports background execution, this method is called instead of applicationWillTerminate: when the user quits.
     }
-
+    
     func applicationWillEnterForeground(_ application: UIApplication) {
         // Called as part of the transition from the background to the active state; here you can undo many of the changes made on entering the background.
     }

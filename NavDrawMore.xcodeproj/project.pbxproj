@@ -7,21 +7,73 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1A0E64741E7B15720096B1FB /* ProfileChangeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A0E64731E7B15720096B1FB /* ProfileChangeViewController.swift */; };
+		1A0F7BCF1E68A3F100376549 /* Job.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A0F7BCE1E68A3F100376549 /* Job.swift */; };
+		1A115EDF1E6F41C30086505A /* ChooseDateTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A115EDE1E6F41C30086505A /* ChooseDateTableViewController.swift */; };
 		1A138AC31E64AC710050B889 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A138AC21E64AC710050B889 /* AppDelegate.swift */; };
 		1A138AC51E64AC710050B889 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A138AC41E64AC710050B889 /* ViewController.swift */; };
-		1A138AC81E64AC710050B889 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1A138AC61E64AC710050B889 /* Main.storyboard */; };
 		1A138ACA1E64AC710050B889 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1A138AC91E64AC710050B889 /* Assets.xcassets */; };
 		1A138ACD1E64AC710050B889 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1A138ACB1E64AC710050B889 /* LaunchScreen.storyboard */; };
+		1A138AD51E64ADCB0050B889 /* LeftSideViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A138AD41E64ADCB0050B889 /* LeftSideViewController.swift */; };
+		1A138AD71E64ADF70050B889 /* RightSideViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A138AD61E64ADF70050B889 /* RightSideViewController.swift */; };
+		1A138AE31E64AF810050B889 /* MMDrawerController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A138ADA1E64AF810050B889 /* MMDrawerController.m */; };
+		1A138AE41E64AF810050B889 /* MMDrawerBarButtonItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A138ADC1E64AF810050B889 /* MMDrawerBarButtonItem.m */; };
+		1A138AE51E64AF810050B889 /* MMDrawerVisualState.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A138ADD1E64AF810050B889 /* MMDrawerVisualState.m */; };
+		1A138AE61E64AF810050B889 /* UIViewController+MMDrawerController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A138AE11E64AF810050B889 /* UIViewController+MMDrawerController.m */; };
+		1A1444391E72F2D100C1E47B /* ShadowColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A1444381E72F2D100C1E47B /* ShadowColor.swift */; };
+		1A14443B1E72F2FC00C1E47B /* CustomButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A14443A1E72F2FC00C1E47B /* CustomButton.swift */; };
+		1A1878E11E71A9350023DF66 /* AcountViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A1878E01E71A9350023DF66 /* AcountViewController.swift */; };
+		1A22F4851E65D17C0093C7CC /* CustomTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A22F4841E65D17C0093C7CC /* CustomTableViewCell.swift */; };
+		1A22F4871E65DBAE0093C7CC /* AboutViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A22F4861E65DBAE0093C7CC /* AboutViewController.swift */; };
+		1A22F4891E65FBE10093C7CC /* CustomTableViewCell2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A22F4881E65FBE10093C7CC /* CustomTableViewCell2.swift */; };
+		1A22F48B1E65FCF20093C7CC /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A22F48A1E65FCF20093C7CC /* DetailViewController.swift */; };
+		1A4BED891E6DFA5C00804415 /* FilterTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A4BED881E6DFA5C00804415 /* FilterTableViewController.swift */; };
+		1A5533EA1E6B25560014CCE5 /* JobDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A5533E91E6B25560014CCE5 /* JobDetailViewController.swift */; };
+		1A6D59181E79C37B00167B0E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1A6D59161E79C37B00167B0E /* Main.storyboard */; };
+		1AE90DD41E67579B009ED11A /* Restaurant.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AE90DD31E67579B009ED11A /* Restaurant.swift */; };
+		1AE90DD61E6763AF009ED11A /* DetailTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AE90DD51E6763AF009ED11A /* DetailTableViewCell.swift */; };
+		1AFE125A1E705B0F0066B1AE /* ChooseTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AFE12591E705B0F0066B1AE /* ChooseTableViewCell.swift */; };
+		9743F707757327CECD7AF296 /* libPods-NavDrawMore.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 2180CEEECA173F27465BC143 /* libPods-NavDrawMore.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		1A0E64731E7B15720096B1FB /* ProfileChangeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProfileChangeViewController.swift; sourceTree = "<group>"; };
+		1A0F7BCE1E68A3F100376549 /* Job.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Job.swift; sourceTree = "<group>"; };
+		1A115EDE1E6F41C30086505A /* ChooseDateTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChooseDateTableViewController.swift; sourceTree = "<group>"; };
 		1A138ABF1E64AC710050B889 /* NavDrawMore.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NavDrawMore.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1A138AC21E64AC710050B889 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		1A138AC41E64AC710050B889 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		1A138AC71E64AC710050B889 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		1A138AC91E64AC710050B889 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1A138ACC1E64AC710050B889 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		1A138ACE1E64AC710050B889 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1A138AD41E64ADCB0050B889 /* LeftSideViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LeftSideViewController.swift; sourceTree = "<group>"; };
+		1A138AD61E64ADF70050B889 /* RightSideViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RightSideViewController.swift; sourceTree = "<group>"; };
+		1A138AD91E64AF800050B889 /* NavDrawMore-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NavDrawMore-Bridging-Header.h"; sourceTree = SOURCE_ROOT; };
+		1A138ADA1E64AF810050B889 /* MMDrawerController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MMDrawerController.m; path = ../MMDrawerController.m; sourceTree = "<group>"; };
+		1A138ADB1E64AF810050B889 /* MMDrawerController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MMDrawerController.h; path = ../MMDrawerController.h; sourceTree = "<group>"; };
+		1A138ADC1E64AF810050B889 /* MMDrawerBarButtonItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MMDrawerBarButtonItem.m; path = ../MMDrawerBarButtonItem.m; sourceTree = "<group>"; };
+		1A138ADD1E64AF810050B889 /* MMDrawerVisualState.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MMDrawerVisualState.m; path = ../MMDrawerVisualState.m; sourceTree = "<group>"; };
+		1A138ADE1E64AF810050B889 /* MMDrawerController+Subclass.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "MMDrawerController+Subclass.h"; path = "../MMDrawerController+Subclass.h"; sourceTree = "<group>"; };
+		1A138ADF1E64AF810050B889 /* MMDrawerBarButtonItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MMDrawerBarButtonItem.h; path = ../MMDrawerBarButtonItem.h; sourceTree = "<group>"; };
+		1A138AE01E64AF810050B889 /* MMDrawerVisualState.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MMDrawerVisualState.h; path = ../MMDrawerVisualState.h; sourceTree = "<group>"; };
+		1A138AE11E64AF810050B889 /* UIViewController+MMDrawerController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UIViewController+MMDrawerController.m"; path = "../UIViewController+MMDrawerController.m"; sourceTree = "<group>"; };
+		1A138AE21E64AF810050B889 /* UIViewController+MMDrawerController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UIViewController+MMDrawerController.h"; path = "../UIViewController+MMDrawerController.h"; sourceTree = "<group>"; };
+		1A1444381E72F2D100C1E47B /* ShadowColor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ShadowColor.swift; sourceTree = "<group>"; };
+		1A14443A1E72F2FC00C1E47B /* CustomButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomButton.swift; sourceTree = "<group>"; };
+		1A1878E01E71A9350023DF66 /* AcountViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AcountViewController.swift; sourceTree = "<group>"; };
+		1A22F4841E65D17C0093C7CC /* CustomTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomTableViewCell.swift; sourceTree = "<group>"; };
+		1A22F4861E65DBAE0093C7CC /* AboutViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AboutViewController.swift; sourceTree = "<group>"; };
+		1A22F4881E65FBE10093C7CC /* CustomTableViewCell2.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomTableViewCell2.swift; sourceTree = "<group>"; };
+		1A22F48A1E65FCF20093C7CC /* DetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		1A4BED881E6DFA5C00804415 /* FilterTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FilterTableViewController.swift; sourceTree = "<group>"; };
+		1A5533E91E6B25560014CCE5 /* JobDetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JobDetailViewController.swift; sourceTree = "<group>"; };
+		1A6D59171E79C37B00167B0E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		1AE90DD31E67579B009ED11A /* Restaurant.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Restaurant.swift; sourceTree = "<group>"; };
+		1AE90DD51E6763AF009ED11A /* DetailTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailTableViewCell.swift; sourceTree = "<group>"; };
+		1AFE12591E705B0F0066B1AE /* ChooseTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChooseTableViewCell.swift; sourceTree = "<group>"; };
+		2180CEEECA173F27465BC143 /* libPods-NavDrawMore.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-NavDrawMore.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2E248542F09E1AC5EFFE3EFA /* Pods-NavDrawMore.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NavDrawMore.debug.xcconfig"; path = "Pods/Target Support Files/Pods-NavDrawMore/Pods-NavDrawMore.debug.xcconfig"; sourceTree = "<group>"; };
+		D2EAFE9FA5706C60A6B21327 /* Pods-NavDrawMore.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NavDrawMore.release.xcconfig"; path = "Pods/Target Support Files/Pods-NavDrawMore/Pods-NavDrawMore.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,6 +81,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9743F707757327CECD7AF296 /* libPods-NavDrawMore.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -40,6 +93,8 @@
 			children = (
 				1A138AC11E64AC710050B889 /* NavDrawMore */,
 				1A138AC01E64AC710050B889 /* Products */,
+				3FE01D4B062F473A73E442C9 /* Pods */,
+				7736C995FBA7406B6E93801D /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -54,14 +109,74 @@
 		1A138AC11E64AC710050B889 /* NavDrawMore */ = {
 			isa = PBXGroup;
 			children = (
+				1A1444371E72F2B200C1E47B /* Utils */,
+				1A138AD81E64AF2F0050B889 /* MySideMenu */,
 				1A138AC21E64AC710050B889 /* AppDelegate.swift */,
+				1AE90DD31E67579B009ED11A /* Restaurant.swift */,
+				1A0F7BCE1E68A3F100376549 /* Job.swift */,
 				1A138AC41E64AC710050B889 /* ViewController.swift */,
-				1A138AC61E64AC710050B889 /* Main.storyboard */,
+				1AE90DD51E6763AF009ED11A /* DetailTableViewCell.swift */,
+				1A1878E01E71A9350023DF66 /* AcountViewController.swift */,
+				1A22F4861E65DBAE0093C7CC /* AboutViewController.swift */,
+				1A6D59161E79C37B00167B0E /* Main.storyboard */,
+				1A0E64731E7B15720096B1FB /* ProfileChangeViewController.swift */,
+				1A5533E91E6B25560014CCE5 /* JobDetailViewController.swift */,
+				1A22F48A1E65FCF20093C7CC /* DetailViewController.swift */,
+				1A138AD41E64ADCB0050B889 /* LeftSideViewController.swift */,
+				1A22F4841E65D17C0093C7CC /* CustomTableViewCell.swift */,
+				1A138AD61E64ADF70050B889 /* RightSideViewController.swift */,
 				1A138AC91E64AC710050B889 /* Assets.xcassets */,
 				1A138ACB1E64AC710050B889 /* LaunchScreen.storyboard */,
 				1A138ACE1E64AC710050B889 /* Info.plist */,
+				1A22F4881E65FBE10093C7CC /* CustomTableViewCell2.swift */,
+				1A4BED881E6DFA5C00804415 /* FilterTableViewController.swift */,
+				1A115EDE1E6F41C30086505A /* ChooseDateTableViewController.swift */,
+				1AFE12591E705B0F0066B1AE /* ChooseTableViewCell.swift */,
+				1A14443A1E72F2FC00C1E47B /* CustomButton.swift */,
 			);
 			path = NavDrawMore;
+			sourceTree = "<group>";
+		};
+		1A138AD81E64AF2F0050B889 /* MySideMenu */ = {
+			isa = PBXGroup;
+			children = (
+				1A138ADA1E64AF810050B889 /* MMDrawerController.m */,
+				1A138ADB1E64AF810050B889 /* MMDrawerController.h */,
+				1A138ADC1E64AF810050B889 /* MMDrawerBarButtonItem.m */,
+				1A138ADD1E64AF810050B889 /* MMDrawerVisualState.m */,
+				1A138ADE1E64AF810050B889 /* MMDrawerController+Subclass.h */,
+				1A138ADF1E64AF810050B889 /* MMDrawerBarButtonItem.h */,
+				1A138AE01E64AF810050B889 /* MMDrawerVisualState.h */,
+				1A138AE11E64AF810050B889 /* UIViewController+MMDrawerController.m */,
+				1A138AE21E64AF810050B889 /* UIViewController+MMDrawerController.h */,
+				1A138AD91E64AF800050B889 /* NavDrawMore-Bridging-Header.h */,
+			);
+			name = MySideMenu;
+			sourceTree = "<group>";
+		};
+		1A1444371E72F2B200C1E47B /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				1A1444381E72F2D100C1E47B /* ShadowColor.swift */,
+			);
+			name = Utils;
+			sourceTree = "<group>";
+		};
+		3FE01D4B062F473A73E442C9 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				2E248542F09E1AC5EFFE3EFA /* Pods-NavDrawMore.debug.xcconfig */,
+				D2EAFE9FA5706C60A6B21327 /* Pods-NavDrawMore.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		7736C995FBA7406B6E93801D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2180CEEECA173F27465BC143 /* libPods-NavDrawMore.a */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -71,9 +186,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 1A138AD11E64AC710050B889 /* Build configuration list for PBXNativeTarget "NavDrawMore" */;
 			buildPhases = (
+				EFAEB729791136F13D4BDEA0 /* [CP] Check Pods Manifest.lock */,
 				1A138ABB1E64AC710050B889 /* Sources */,
 				1A138ABC1E64AC710050B889 /* Frameworks */,
 				1A138ABD1E64AC710050B889 /* Resources */,
+				3AA927C44039F4F022C7129D /* [CP] Embed Pods Frameworks */,
+				39B01D7761F34AB83452D695 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -96,6 +214,8 @@
 				TargetAttributes = {
 					1A138ABE1E64AC710050B889 = {
 						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 8C8TL34XQ3;
+						LastSwiftMigration = 0820;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -123,41 +243,110 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1A6D59181E79C37B00167B0E /* Main.storyboard in Resources */,
 				1A138ACD1E64AC710050B889 /* LaunchScreen.storyboard in Resources */,
 				1A138ACA1E64AC710050B889 /* Assets.xcassets in Resources */,
-				1A138AC81E64AC710050B889 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		39B01D7761F34AB83452D695 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-NavDrawMore/Pods-NavDrawMore-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3AA927C44039F4F022C7129D /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-NavDrawMore/Pods-NavDrawMore-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EFAEB729791136F13D4BDEA0 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		1A138ABB1E64AC710050B889 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1AE90DD41E67579B009ED11A /* Restaurant.swift in Sources */,
+				1A22F4851E65D17C0093C7CC /* CustomTableViewCell.swift in Sources */,
+				1A115EDF1E6F41C30086505A /* ChooseDateTableViewController.swift in Sources */,
+				1AE90DD61E6763AF009ED11A /* DetailTableViewCell.swift in Sources */,
+				1A22F4891E65FBE10093C7CC /* CustomTableViewCell2.swift in Sources */,
+				1A0F7BCF1E68A3F100376549 /* Job.swift in Sources */,
+				1A5533EA1E6B25560014CCE5 /* JobDetailViewController.swift in Sources */,
 				1A138AC51E64AC710050B889 /* ViewController.swift in Sources */,
+				1A22F48B1E65FCF20093C7CC /* DetailViewController.swift in Sources */,
+				1A138AE41E64AF810050B889 /* MMDrawerBarButtonItem.m in Sources */,
+				1A138AE31E64AF810050B889 /* MMDrawerController.m in Sources */,
+				1A138AE61E64AF810050B889 /* UIViewController+MMDrawerController.m in Sources */,
+				1A138AD51E64ADCB0050B889 /* LeftSideViewController.swift in Sources */,
+				1A0E64741E7B15720096B1FB /* ProfileChangeViewController.swift in Sources */,
+				1A138AD71E64ADF70050B889 /* RightSideViewController.swift in Sources */,
+				1A4BED891E6DFA5C00804415 /* FilterTableViewController.swift in Sources */,
+				1AFE125A1E705B0F0066B1AE /* ChooseTableViewCell.swift in Sources */,
+				1A1444391E72F2D100C1E47B /* ShadowColor.swift in Sources */,
 				1A138AC31E64AC710050B889 /* AppDelegate.swift in Sources */,
+				1A14443B1E72F2FC00C1E47B /* CustomButton.swift in Sources */,
+				1A22F4871E65DBAE0093C7CC /* AboutViewController.swift in Sources */,
+				1A1878E11E71A9350023DF66 /* AcountViewController.swift in Sources */,
+				1A138AE51E64AF810050B889 /* MMDrawerVisualState.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		1A138AC61E64AC710050B889 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				1A138AC71E64AC710050B889 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		1A138ACB1E64AC710050B889 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
 				1A138ACC1E64AC710050B889 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		1A6D59161E79C37B00167B0E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1A6D59171E79C37B00167B0E /* Base */,
+			);
+			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -258,24 +447,33 @@
 		};
 		1A138AD21E64AC710050B889 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2E248542F09E1AC5EFFE3EFA /* Pods-NavDrawMore.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				DEVELOPMENT_TEAM = 8C8TL34XQ3;
 				INFOPLIST_FILE = NavDrawMore/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = ashqelon.NavDrawMore;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ashqelon.kuah;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "NavDrawMore-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
 		};
 		1A138AD31E64AC710050B889 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D2EAFE9FA5706C60A6B21327 /* Pods-NavDrawMore.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				DEVELOPMENT_TEAM = 8C8TL34XQ3;
 				INFOPLIST_FILE = NavDrawMore/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = ashqelon.NavDrawMore;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ashqelon.kuah;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "NavDrawMore-Bridging-Header.h";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Release;
@@ -299,6 +497,7 @@
 				1A138AD31E64AC710050B889 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
